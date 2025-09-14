@@ -14,8 +14,7 @@ function App() {
   }
   return(
     <main>
-      <input type="text" onChange={(e)=>
-        setInput(e.target.value)}/>
+      <input type="text" onChange={(e)=>setInput(e.target.value)}/>
        <button onClick={add}>추가</button>
        <TodoBoard todolist={todolist}/>
     </main>
